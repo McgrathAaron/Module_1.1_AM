@@ -1,4 +1,3 @@
-/* Reset some default styles */
 body, h1, h2, p, ul, li, a, img {
     margin: 0;
     padding: 0;
@@ -17,7 +16,7 @@ body {
 
 .header {
     background-color: #b5b5b5;
-    color: #ffffff;
+    color: #7d4aff;
     text-align: center;
     padding: 20px 0;
 }
@@ -41,7 +40,7 @@ body {
 }
 
 .nav__link {
-    color: #7d4aff;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
     font-weight: 700;
@@ -51,7 +50,6 @@ body {
     color: #352F44;
 }
 
-/* Main Content Styles */
 .main {
     background-color: #b5b5b5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -60,19 +58,19 @@ body {
 
 .intro__title {
     font-size: 28px;
-    color: #ffffff;
+    color: #7d4aff;
     padding: 20px 0;
 }
 
 .intro__text {
     font-size: 18px;
-    color: #7d4aff;
+    color: #ffffff;
 }
 
 
 .portfolio__title {
     font-size: 28px;
-    color: #ffffff;
+    color: #7d4aff;
     padding: 20px 0;
 }
 
@@ -103,10 +101,11 @@ body {
 }
 
 .footer {
-    background-color: #b5b5b5;
-    color: #7d4aff;
+    background-color: #7d4aff;
+    color: #b5b5b5;
     text-align: center;
     padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .footer__text {
@@ -114,7 +113,7 @@ body {
 }
 
 .footer__link {
-    color: #7d4aff;
+    color: #b5b5b5;
     text-decoration: none;
     font-weight: 700;
 }
